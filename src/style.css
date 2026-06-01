@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import "./Fonts.module.css";
 @import "../node_modules/swiper/swiper-bundle.min.css";
 @theme {
   --font-fontello: fontello;
