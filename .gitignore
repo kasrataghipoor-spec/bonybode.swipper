@@ -1,24 +1,63 @@
-# Logs
-logs
-*.log
+# Node modules
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
+# فایل‌های build و dist
+dist/
+build/
+.next/
+out/
 
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# فایل‌های سیستمی
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+desktop.ini
+
+# فایل‌های ادیتور
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# لاگ فایل‌ها
+*.log
+logs/
+
+# فایل‌های محیطی
+.env
+.env.local
+.env.*.local
+
+# فایل‌های کش
+.cache/
+*.cache
+.eslintcache
+
+# فایل‌های موقت
+tmp/
+temp/
+
+# پوشه‌های public assets (اگر می‌خواهید)
+# public/bany-banner/
+# public/*.gif
+# public/*.svg
+
+# فایل‌های وابسته به سیستم عامل
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+
+# macOS
+*.swp
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+.document
+.trash-info
