@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "fontello";
+  src: url(../public/fonts/fontello.woff2) format(woff2);
+}
+@font-face {
+  font-family: "IranSans-FaNum";
+  src: url(../public/fonts/IRANSansXFaNum-RegularD4.6e0e6d9b85ca2cdf9407.woff)
+    format(woff);
+}
+@font-face {
+  font-family: "Shabnam-Bold";
+  src: url(../public/fonts/Shabnam-Bold-FD.woff) format(woff);
+}
+@font-face {
+  font-family: "Shabnam-FD";
+  src: url(../public/fonts/Shabnam-FD.woff) format(woff);
+}
+@font-face {
+  font-family: "Shabnam-Medium";
+  src: url(../public/fonts/Shabnam-Medium-FD.woff) format(woff);
+}
+@font-face {
+  font-family: "Shabnam";
+  src: url(../public/fonts/Shabnam.woff) format(woff);
+}

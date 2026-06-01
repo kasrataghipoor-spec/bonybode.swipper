@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@import "../node_modules/swiper/swiper-bundle.min.css";
+@theme {
+  --font-fontello: fontello;
+  --font-IranSans-FaNum: IranSans-FaNum;
+  --font-Shabnam-Bold: Shabnam-Bold;
+  --font-Shabnam-FD: Shabnam-FD;
+  --font-Shabnam-Medium: Shabnam-Medium;
+  --font-Shabnam: Shabnam;
+  --color-cart: #fe5f55;
+  --color-cart-hover: #0a295a;
+}
+@layer base {
+  
+}
+@layer components {
+  .nav-item {
+    @apply transition-all hover:text-cart border-b-3 border-b-transparent pb-3 hover:border-b-cart;
+  }
+
+}
+.swiper {
+  @apply w-full h-full;
+  .swiper-slide {
+    @apply flex justify-center items-center select-none;
+    img {
+      @apply block w-full h-full object-cover;
+    }
+  }
+}
+@layer utilities {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .size_5 {
+    width: 35px !important; 
+    height: 35px !important; 
+  }
+.container2{
+  width: 74%;
+  height: auto;
+}
+}
