@@ -17,9 +17,27 @@ var swiperOne = new Swiper(".categorySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+var swiperOne = new Swiper(".categorySwiper3", {
+  slidesPerView: "auto",
+  spaceBetween: 8, 
+  loop: false,      
+  freeMode: true,   
+  breakpoints: {
+    // موبایل
+    0: {
+      slidesPerView: "auto",
+      spaceBetween: 8,
+    },
+    // دسکتاپ
+    1024: {
+      slidesPerView: "auto", 
+      spaceBetween: 8,
+    }
+  }
+});
 var swiperOne = new Swiper(".categorySwiper2", {
-  slidesPerView: "auto", // مهم: به جای عدد ثابت
-  spaceBetween: 12, // فاصله مناسب بین اسلایدها
+  slidesPerView: "auto", 
+  spaceBetween: 12, 
   loop: true,
   navigation: {
     nextEl: ".swiper-button-next",
@@ -27,27 +45,27 @@ var swiperOne = new Swiper(".categorySwiper2", {
   },
   // اضافه کردن breakpoints برای ریسپانسیو
   breakpoints: {
-    // موبایل
+   
     0: {
       slidesPerView: 1.2,
       spaceBetween: 10,
     },
-    // موبایل بزرگ
+   
     480: {
       slidesPerView: 1.7,
       spaceBetween: 12,
     },
-    // تبلت
+   
     768: {
       slidesPerView: 2.5,
       spaceBetween: 15,
     },
-    // دسکتاپ کوچک
+   
     1024: {
-      slidesPerView: 4.5,
+      slidesPerView: 3,
       spaceBetween: 20,
     },
-    // دسکتاپ بزرگ
+    
     1280: {
       slidesPerView: 5,
       spaceBetween: 24,

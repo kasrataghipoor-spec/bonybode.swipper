@@ -21,6 +21,22 @@
 
 }
 
+.categorySwiper3 .swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.categorySwiper3 .swiper-slide {
+  width: auto !important;   
+  flex-shrink: 0;
+}
+
+
+.categorySwiper3 {
+  position: relative;
+  padding: 0 40px;
+}
 
 .swiper {
   @apply w-full h-full;
