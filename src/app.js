@@ -52,6 +52,43 @@ var swiperOne = new Swiper(".categorySwiper2", {
     },
    
     480: {
+      slidesPerView: 2,
+      spaceBetween: 12,
+    },
+   
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 15,
+    },
+   
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    
+    1280: {
+      slidesPerView: 5,
+      spaceBetween: 24,
+    },
+  }
+});
+var swiperOne = new Swiper(".categorySwiper4", {
+  slidesPerView: "auto", 
+  spaceBetween: 12, 
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  // اضافه کردن breakpoints برای ریسپانسیو
+  breakpoints: {
+   
+    0: {
+      slidesPerView: 1.2,
+      spaceBetween: 10,
+    },
+   
+    480: {
       slidesPerView: 1.7,
       spaceBetween: 12,
     },
