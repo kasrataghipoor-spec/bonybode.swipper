@@ -34,7 +34,7 @@ var swiperOne = new Swiper(".categorySwiper2", {
     },
     // موبایل بزرگ
     480: {
-      slidesPerView: 2,
+      slidesPerView: 1.7,
       spaceBetween: 12,
     },
     // تبلت
