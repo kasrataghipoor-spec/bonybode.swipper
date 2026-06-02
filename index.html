@@ -13,12 +13,12 @@
 
 <body>
   <!-- container -->
-  <section class="container2 container mx-auto ">
+  <section class="container lg:!container mx-auto  ">
     <!-- banner -->
     <!-- section1 strated -->
     <div class="mt-3 rounded-md overflow-hidden mb-5.5 "><img src="public/banner.gif" alt=""></div>
     <div class="flex justify-between items-center ">
-      <div class="flex items-center gap-2">
+      <div class="items-center gap-2 hidden lg:flex ">
         <div class="w-8 h-8 ">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
             <g stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
@@ -41,7 +41,7 @@
       </div>
       <div class="w-full h-full flex justify-center relative">
         <input placeholder="جست‌وجو میان هزاران برند و صدها هزار کالا"
-          class="relative w-6/12 rounded-lg bg-neutral-300 py-2 pl-10 pr-4 text-[15px] border-transparent h-10 outline-none active:outline-none text-xs lg:text-base"
+          class="relative w-11/12 lg:w-6/12 rounded-lg bg-neutral-300 py-2 pl-10 pr-4 text-[15px] border-transparent h-10 outline-none active:outline-none text-xs lg:text-base"
           type="text" value="">
         <span class="absolute right-0">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
@@ -57,12 +57,12 @@
             </defs>
           </svg></span>
       </div>
-      <div class=""><img src="./public/bbicon.svg" alt=""></div>
+      <div class="hidden lg:block "><img src="./public/bbicon.svg" alt=""></div>
 
 
     </div>
 
-    <ul class="flex  gap-10.5 mt-10">
+    <ul class="flex  gap-10.5 mt-10 hidden lg:flex  ">
       <li>
         دسته بندی
       </li>
@@ -78,7 +78,7 @@
     <!-- section1 ended -->
     </div>
     <div class="flex justify-center gap-10">
-      <div class="w-9/14 h-full mt-10 aspect-video ">
+      <div class="w-full h-full mt-10 aspect-video lg:w-9/14  ">
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -98,12 +98,12 @@
             </div>
             <div class="swiper-slide">
               <div class="w-full rounded-lg overflow-hidden cursor-grab focus:cursor-grabbing h-full ">
-                <img src="./public/bany-banner/b1.jpg" alt="" />
+                <img src="./public/bany-banner/b3-w.webp" alt="" />
               </div>
             </div>
             <div class="swiper-slide">
               <div class="w-full rounded-lg overflow-hidden cursor-grab focus:cursor-grabbing h-full ">
-                <img src="./public/bany-banner/b1.jpg" alt="" />
+                <img src="./public/bany-banner/banner2.webp" alt="" />
               </div>
             </div>
 
@@ -111,11 +111,11 @@
           <div class="swiper-pagination"></div>
         </div>
       </div>
-      <div class="w-7/20  mt-10">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
+      <div class="w-7/20  mt-10 hidden lg:block ">
+        <div class="swiper mySwiper ">
+          <div class="swiper-wrapper ">
             <div class="swiper-slide">
-              <div class="w-full rounded-lg overflow-hidden cursor-grab focus:cursor-grabbing h-full ">
+              <div class="w-full rounded-lg overflow-hidden cursor-grab focus:cursor-grabbing h-full  ">
                 <img src="./public/bany-banner/b3-w.webp" alt="" />
               </div>
             </div>
@@ -136,85 +136,122 @@
     <!-- Swiper -->
     <div class=" mx-auto my-20 ">
 
-
       <div class="swiper categorySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="لباس مردانه" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774022.png"></div>
-            <p class="text-center">لباس مردانه</p>
-          </div>
-          <div class="swiper-slide swiper-slide-next flex flex-col items-center gap-2">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="لباس زنانه" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774031.png"></div>
-            <p class="text-center">لباس زنانه</p>
-          </div>
-          <div class="swiper-slide flex flex-col items-center gap-2  ">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="محصولات بچه گانه" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774040.png"></div>
-            <p class="text-center">محصولات بچه گانه</p>
-            </a>
-          </div>
-          <div class="swiper-slide flex flex-col items-center gap-2  ">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="کیف و کفش" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774054.png"></div>
-            <p class="text-center">کیف و کفش</p>
-            </a>
-          </div>
-          <div class="swiper-slide flex flex-col items-center gap-2  ">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="آرایشی و بهداشتی" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774067.png"></div>
-            <p class="text-center">آرایشی و بهداشتی</p>
-            </a>
-          </div>
-          <div class="swiper-slide flex flex-col items-center gap-2  ">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="ورزش و سفر" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774083.png"></div>
-            <p class="text-center">ورزش و سفر</p>
-            </a>
-          </div>
-          <div class="swiper-slide flex flex-col items-center gap-2  ">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="لوازم خانه" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774097.png"></div>
-            <p class="text-center">لوازم خانه</p>
-            </a>
-          </div>
-          <div class="swiper-slide flex flex-col items-center gap-2  ">
-            <div class="rounded-md bg-gray-100 p-0.5"><img alt="ساعت مردانه و زنانه" width="0" height="0"
-                class="aspect-square w-full select-none rounded-md object-contain "
-                src="https://www.banimode.com/img/cms/050109/1774774107.png"></div>
-            <p class="text-center">ساعت مردانه و زنانه</p>
-            </a>
+          <div class="swiper categorySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/1.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/3.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/4.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/3.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+              <div class="swiper-slide swiper-slide-active flex flex-col items-center gap-2 !w-42 md:!w-40 lg:!w-48">
+                <div class="rounded-md bg-gray-100 p-0.5 w-full">
+                  <img alt="لباس مردانه" class="aspect-square w-full select-none rounded-md object-cover"
+                    src="./public/clouds/2.webp">
+                </div>
+                <p class="text-center text-sm md:text-base">لباس مردانه</p>
+              </div>
+            </div>
           </div>
         </div>
-        <!-- دکمه‌های قبلی و بعدی -->
-
-
-        <!-- صفحه‌بندی -->
-        <div class="swiper-pagination"></div>
       </div>
+
+    </div>
+
+
+
+
+    <div class="swiper-pagination"></div>
+    </div>
     </div>
     </div>
     <!-- Slider main container -->
     <div class="h-200">
-      <div class="bg-black h-90 rounded-t-3xl overflow-visible p-10">
+      <div class="bg-black h-90 rounded-t-3xl overflow-visible p-1">
         <div class="flex justify-between w-full">
-          <div class="flex text-center items-center">
+          <div class="flex text-center items-center justify-around">
             <img class="w-10" src="./public/1758467833.webp" alt="">
-            <div class="text-white font-Shabnam-Bold text-5xl">
+            <div class="text-white font-Shabnam-Bold lg:text-5xl text-2xl">
               شگفت انگیز ها
             </div>
           </div>
           <div class="flex gap-20">
-            <div class="bg-stone-700 flex rounded-2xl items-center justify-evenly w-100 text-amber-50">
-              <div class="flex">
+            <div
+              class="bg-stone-700 flex rounded-2xl items-center justify-evenly lg:w-100 lg:h-full w-50 h-12 text-amber-50">
+              <div class="lg:flex hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
                   <g stroke="oklch(98.7% 0.022 95.277)" stroke-linecap="round" stroke-linejoin="round"
                     stroke-width="1.5" clip-path="url(#search_svg__a)">
@@ -228,7 +265,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <div class=" flex gap-2">تا پایان شگفت انگیز
+                <div class=" flex gap-2 hidden lg:flex">تا پایان شگفت انگیز
                   <span class="border-l-2 "></span>
                 </div>
               </div>
@@ -243,7 +280,7 @@
 
               </div>
             </div>
-            <button class="bg-emerald-600 rounded-lg w-40 h-13 text-amber-50">
+            <button class="bg-emerald-600 rounded-lg w-40 h-13 text-amber-50 hidden lg:block">
               مشاهده همه
             </button>
 
@@ -258,7 +295,7 @@
 
             <div class="swiper-wrapper ">
               <div class="swiper-slide">
-                <div class=" flex w-full flex-col gap-2">
+                <div class=" flex w-full flex-col lg:gap-2 gap-20">
                   <div class="">
                     <div class="relative rounded-2xl overflow-hidden w-70 h-75 ">
                       <button
