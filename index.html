@@ -40,36 +40,42 @@
           class="w-30 text-nowrap text-white bg-[linear-gradient(268deg,rgb(25,177,106)_0%,rgb(43,140,81)_100%)] font-semibold flex justify-center items-center gap-2 h-12 rounded-full text-[13px] lg:text-base px-5">ورود/
           ثبت‌نام</button>
       </div>
-      <div class="w-full h-full flex justify-center relative">
-        <input placeholder="جست‌وجو میان هزاران برند و صدها هزار کالا"
-          class="relative w-11/12 lg:w-6/12 rounded-lg bg-neutral-300 py-2 pl-10 pr-4 text-[15px] border-transparent h-10 outline-none active:outline-none text-xs lg:text-base"
-          type="text" value="">
-        <span class="absolute right-0">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
-            <g stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-              clip-path="url(#search_svg__a)">
-              <path d="M15.714 6.838a6.276 6.276 0 1 1-8.876 8.876 6.276 6.276 0 0 1 8.876-8.876M19 19l-3.29-3.29">
-              </path>
-            </g>
-            <defs>
-              <clipPath id="search_svg__a">
-                <path fill="#fff" d="M0 0h24v24H0z"></path>
-              </clipPath>
-            </defs>
-          </svg></span>
+      <div class="w-full h-full flex justify-center items-center">
+        <div class="relative w-11/12 lg:w-7/12 ">
+          <input placeholder="جست‌وجو میان هزاران برند و صدها هزار کالا"
+            class="  w-full rounded-lg bg-neutral-100 p-6 font-fontello  pr-10 text-[15px] border-transparent h-10  outline-none active:outline-none text-xs lg:text-base"
+            type="text" value="">
+          <div class="absolute right-2 top-2.5 h-5 w-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+              <g stroke="#101010" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                clip-path="url(#search_svg__a)">
+                <path d="M15.714 6.838a6.276 6.276 0 1 1-8.876 8.876 6.276 6.276 0 0 1 8.876-8.876M19 19l-3.29-3.29">
+                </path>
+              </g>
+              <defs>
+                <clipPath id="search_svg__a">
+                  <path fill="#fff" d="M0 0h24v24H0z"></path>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
       </div>
       <div class="hidden lg:block "><img src="./public/bbicon.svg" alt=""></div>
 
 
     </div>
 
-    <ul class="flex  gap-10.5 mt-10 hidden lg:flex  ">
-      <li>
+    <ul class="flex  gap-10.5 mt-10 hidden lg:flex font-fontello  ">
+      <li
+        class="flex gap-1.5 border-b-2 border-white transition-all duration-100  hover:border-b-emerald-600 overflow-hidden">
+        <img alt="menu" loading="lazy" width="15" height="15" decoding="async" data-nimg="1"
+          src="https://www.banimode.com/img/menu/icon/1681628415_844318.svg" style="color: transparent;">
         دسته بندی
       </li>
       <li>شگفت انگیز</li>
       <li>اوتلت</li>
-      <li class="border-l-2"></li>
+      <li class="border-l-1 border-stone-200"></li>
       <li>برند ها</li>
       <li>خانه مد</li>
       <li>کارت هدیه</li>
