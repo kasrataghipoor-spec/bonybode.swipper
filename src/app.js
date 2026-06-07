@@ -128,3 +128,33 @@ var swiperOne = new Swiper(".bestSaleCards", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+
+
+
+
+
+
+var swiperOne = new Swiper(".categorySwiper5", {
+  slidesPerView: 4, // change from "auto" to 4
+  spaceBetween: 0,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1.2,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 0,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+  }
+});
