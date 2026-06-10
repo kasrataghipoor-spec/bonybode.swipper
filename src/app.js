@@ -47,7 +47,7 @@ var swiperOne = new Swiper(".categorySwiper2", {
   breakpoints: {
    
     0: {
-      slidesPerView: 1.2,
+      slidesPerView: 1.34,
       spaceBetween: 10,
     },
    
@@ -84,12 +84,12 @@ var swiperOne = new Swiper(".categorySwiper4", {
   breakpoints: {
    
     0: {
-      slidesPerView: 1.2,
+      slidesPerView: 1.3,
       spaceBetween: 10,
     },
    
     480: {
-      slidesPerView: 1.7,
+      slidesPerView: 2.7,
       spaceBetween: 12,
     },
    
