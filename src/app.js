@@ -52,7 +52,7 @@ var swiperOne = new Swiper(".categorySwiper2", {
     },
    
     480: {
-      slidesPerView: 2,
+      slidesPerView: 2.1,
       spaceBetween: 12,
     },
    
@@ -89,7 +89,7 @@ var swiperOne = new Swiper(".categorySwiper4", {
     },
    
     480: {
-      slidesPerView: 2.7,
+      slidesPerView: 2.1,
       spaceBetween: 12,
     },
    
